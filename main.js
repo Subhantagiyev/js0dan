@@ -17,14 +17,38 @@
 
 
 
-let yas = Number(prompt("yasiniz:"));
+/*let yas = Number(prompt("yasiniz:"));
 let pul = Number(prompt("budceniz:"));
 
 if(yas>=18 && pul >=3000){
     alert("daxil ola bilersiniz:");
 }else{
    alert("daxil olmaq olmaz:");
-}
+} */
 
+
+
+
+
+
+
+           //  ders ortalamasi tapmaq //
+
+
+   // smestr1 %30 , smestr2 %30 , final %40 
+   
+   
+let smestr1 = Number(prompt("smestr 1 balinizi yazin:"));
+let smestr2 = Number(prompt("smestr 2 balinizi girin :"));
+
+let final = Number(prompt("final balinizi girin:"));
+
+let ortalama = smestr1*0.3 + smestr2*0.3 + final*0.4;
+
+if(ortalama>=60){
+    alert("Dersden kecdiniz:");
+}else{
+    alert("Dersden kesildiniz:");
+}
 
 
