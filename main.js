@@ -10,9 +10,21 @@
 
   // IF VE ELSE 
 
-  let bal = 65 ;
-  if(bal>50){
-    console.group("qebul oldunuz:" + bal);
-  }else{
-    console.log("kesildiniz:" + bal);
-  }
+  //let bal = 65 ;
+  //if(bal>50){
+    //console.log("qebul oldunuz:" + bal);
+  //}
+
+
+
+let yas = Number(prompt("yasiniz:"));
+let pul = Number(prompt("budceniz:"));
+
+if(yas>=18 && pul >=3000){
+    alert("daxil ola bilersiniz:");
+}else{
+   alert("daxil olmaq olmaz:");
+}
+
+
+
