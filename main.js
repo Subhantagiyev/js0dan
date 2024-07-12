@@ -1,4 +1,4 @@
-let a = 5;
+let a = 6;
 let b = a++;
 document.write("a="+a);
 document.write("<br>");
